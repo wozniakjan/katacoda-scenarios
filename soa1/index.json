@@ -1,0 +1,41 @@
+{
+  "title": "SWA-FEL 18 - SOA1",
+  "description": "Instructions for lab 1",
+  "difficulty": "beginner",
+  "time": "60 minutes",
+  "details": {
+    "steps": [{
+      "title": "Get the source code",
+      "text": "step1.md"
+    }, {
+      "title": "Build the monolithic application",
+      "text": "step2.md"
+    }, {
+      "title": "Play with the monolith",
+      "text": "step3.md"
+    }, {
+      "title": "Split the monolith",
+      "text": "step4.md"
+    }, {
+      "title": "Auth service",
+      "text": "step5.md"
+    }, {
+      "title": "Using the auth service",
+      "text": "step6.md"
+    }
+    ],
+    "intro": {
+      "text": "intro.md",
+      "credits": ""
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal-terminal"
+  },
+  "backend": {
+    "imageid": "go"
+  }
+}
