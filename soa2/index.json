@@ -2,11 +2,39 @@
   "title": "SWA-FEL 18 - SOA2",
   "description": "",
   "difficulty": "beginner",
-  "time": "2 minutes",
+  "time": "90 minutes",
   "details": {
+    "assets": {
+      "host01": [
+          {
+              "file": "Dockerfile",
+              "target": "~/app1/"
+          },
+          {
+              "file": "setup.sh",
+              "target": "~/"
+          },
+          {
+              "file": "main.go",
+              "target": "~/app1/"
+          },
+          {
+              "file": "deployment.yaml",
+              "target": "~/app1/"
+          },
+          {
+              "file": "pod.yaml",
+              "target": "~/app1/"
+          }
+      ]
+    },
     "steps": [{
-      "title": "Step 1 - Run Command",
+      "title": "Step 1 - Docker",
       "text": "step1.md"
+    },
+    {
+      "title": "Step 2 - Kubernetes",
+      "text": "step2.md"
     }],
     "intro": {
       "text": "intro.md",
