@@ -48,6 +48,11 @@ docker ps | grep app1
 docker kill app1
 ```{{execute}}
 
+Now if you try to spawn a container with the same name, it will fail. Killed container does not equal to removed container and you may want to remove it entirely.
+```
+docker ps -a | grep app1
+docker rm app1
+```{{execute}}
 
 ##### Task 1.
 
