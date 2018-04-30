@@ -19,10 +19,6 @@
               "target": "~/app1/"
           },
           {
-              "file": "deployment.yaml",
-              "target": "~/app1/"
-          },
-          {
               "file": "pod.yaml",
               "target": "~/app1/"
           }
